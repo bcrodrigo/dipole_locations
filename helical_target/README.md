@@ -2,9 +2,11 @@
 
 `helix.py` generates points forming a helical particle in a square computational grid. It does it by using the parametric equations for a helical trajectory following a conical path
 
-$x = z \cdot\tan\beta \cos\phi$
-$y = hz\cdot \tan\beta \sin\phi$
-$z = \frac{p}{2\pi}\phi + \frac{R_{min}}{\tan\beta}$
+$$x = z \cdot\tan\beta \cos\phi$$
+
+$$y = hz\cdot \tan\beta \sin\phi$$
+
+$$z = \frac{p}{2\pi}\phi + \frac{R_{min}}{\tan\beta}$$
 
 where $\phi$ is the azimuthal angle (around the $z$ axis), ranging from 0 to $2\pi$, $h$ is the handedness parameter ($h=+1$ for a right-handed helix, and $h=-1$ for a left-handed helix), $p$ is the pitch (height of 1 turn in the helix), $\beta$ the half angle formed by the $z$ axis and the conical trajectory  $R_{min}$  is the lowest value for the radius measured from the $z$ axis. The figure below illustrates the parameters of a conical helix.
 
