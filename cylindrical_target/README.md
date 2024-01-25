@@ -2,9 +2,11 @@
 
 `cylinder.py` generates points forming a cylindrical particle in a square computational grid. It does it by using the parametric equations for the surface of a cylinder
 
-$x = r \cos\phi$
-$y = r \sin\phi$
-$z = z$
+$$x = r \cos\phi$$
+
+$$y = r \sin\phi$$
+
+$$z = z$$
 
 where  $r$  is the radius of the cylinder, $\phi$ is the azimuthal angle, ranging from 0 to $2\pi$. See this [link](https://mathworld.wolfram.com/Cylinder.html)for further details on parametric equations of cylinders.
 
