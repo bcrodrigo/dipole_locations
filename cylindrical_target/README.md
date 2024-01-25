@@ -26,4 +26,5 @@ cylinder(12,40, doplot = True)
 ```
 
 Outputs
+
 ![cylinder](images/figure_cylinder_r12_h40.png)
